@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "16804971832",
+    "firebase_url": "https://naijaapps-bbbdc.firebaseio.com",
+    "project_id": "naijaapps-bbbdc",
+    "storage_bucket": "naijaapps-bbbdc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16804971832:android:f7e39afab9c76975",
+        "android_client_info": {
+          "package_name": "com.haibeey.android.naijaapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16804971832-1l59i6njtnf6tvn7h20v00ir36d871ii.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.haibeey.android.naijaapps",
+            "certificate_hash": "cf9b7b5e1631add44351e50b121281186b818321"
+          }
+        },
+        {
+          "client_id": "16804971832-lvas841ap2bhotq99ggedjkoad8ho36b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCVH2L22NvZ14Vm2zC6UxmEpPIdDotu4w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16804971832-lvas841ap2bhotq99ggedjkoad8ho36b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

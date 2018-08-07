@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/upload_parent"
+    android:elevation="300dp"
+    android:background="@color/cardview_light_background"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".uploads.UploadActivity"
+    tools:showIn="@layout/activity_upload">
+
+
+    <com.haibeey.android.naijaapps.views.CustomCircleImageView
+        android:id="@+id/app_image"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="23dp"
+        android:contentDescription="@string/app_name"
+        android:longClickable="true"
+        android:src="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="25dp" />
+
+
+    <EditText
+        android:id="@+id/app_name_text_input"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:focusable="false"
+        android:layout_marginBottom="173dp"
+        android:hint="@string/app_name_upload"
+        android:inputType="textEmailAddress" />
+
+    <ImageButton
+        android:id="@+id/select_app"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignTop="@+id/app_name_text_input"
+        android:layout_toRightOf="@+id/select_type"
+        android:layout_toEndOf="@+id/select_type"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/ic_touch_app_black_24dp" />
+
+    <Spinner
+        android:id="@+id/select_type"
+        android:layout_width="239dp"
+        android:layout_height="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="248dp" />
+
+    <Button
+        android:id="@+id/upload_button"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="95dp"
+        android:gravity="center"
+        android:text="@string/upload_button" />
+</RelativeLayout>

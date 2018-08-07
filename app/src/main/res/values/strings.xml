@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">NaijaApps</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_upload">UploadActivity</string>
+    <string name="app_name_upload">name of app</string>
+    <string name="app_image_content_desc">Select App Image</string>
+    <string name="title_activity_app_details">AppDetailsActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="upload_button">Upload</string>
+
+    <string name="pref_key_notification">working on it</string>
+    <string name="pref_summary_notification">working on it</string>
+    <string name="pref_title_notification">working on it</string>
+
+    <string name="register_warning">You need to register as Developer</string>
+    <string name="null_image_path">No app Image Choosen</string>
+    <string name="null_app_path">No app selected Choosen</string>
+    <string name="email">Email</string>
+    <string name="full_name">Full Name</string>
+    <string name="upload_channel_name">Upload</string>
+    <string name="upload_channel_description">Uploading App</string>
+    <string name="download_channel_name">Download</string>
+    <string name="download_channel_description">Downloading App</string>
+    <string name="uploading">Upload File</string>
+    <string name="password_hint">password</string>
+    <string name="nav_search">Search</string>
+    <string name="nav_user_reg">Reg as a User</string>
+    <string name="nav_developer_reg">Reg as a developer</string>
+    <string name="nav_settings">Settings</string>
+    <string name="have_an_account">Have an Account Before</string>
+    <string name="cannot_be_empty">field cannot be empty</string>
+    <string name="download">download</string>
+    <string-array name="upload_spinner">
+        <item>Mobile App</item>
+        <item>DeskTop App</item>
+    </string-array>
+    <string name="title_activity_developer_registration">DeveloperRegistration</string>
+    <string name="title_activity_file_chooser">FileChooserActivity</string>
+    <string name="title_activity_reg_user">RegUser</string>
+    <string name="review_comment_button">Comment</string>
+
+</resources>

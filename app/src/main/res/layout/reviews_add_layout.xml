@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_centerHorizontal="true"
+    android:layout_height="wrap_content">
+    <MultiAutoCompleteTextView
+        android:layout_width="match_parent"
+        android:id="@+id/reviews_text"
+        android:hint="comment here"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_below="@+id/reviews_text"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/review_button"
+        android:text="@string/review_comment_button"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
