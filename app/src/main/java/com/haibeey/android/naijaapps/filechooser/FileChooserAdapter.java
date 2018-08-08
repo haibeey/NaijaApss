@@ -22,18 +22,7 @@ public class FileChooserAdapter extends RecyclerView.Adapter<FileChooserAdapter.
     private File[] files;
     protected FileChooserAdapter(File file){
         files=file.listFiles();
-        Arrays.sort(files, new Comparator<File>() {
-            @Override
-            public int compare(File file, File t1) {
-                if(file.isDirectory()){
-                    return 1;
-                }
-                if(t1.isDirectory()){
-                    return -1;
-                }
-                return file.getName().charAt(0)>t1.getName().charAt(0)?1:0;
-            }
-        });
+        
     }
 
 
